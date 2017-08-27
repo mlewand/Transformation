@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_CIRC_INOUT_H
 #define TRANSFORMATION_CIRC_INOUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationCircInOut : public TransformationBase
 {

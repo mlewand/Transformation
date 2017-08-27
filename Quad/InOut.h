@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_QUAD_INOUT_H
 #define TRANSFORMATION_QUAD_INOUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationQuadInOut : public TransformationBase
 {

@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_ELASTIC_INOUT_H
 #define TRANSFORMATION_ELASTIC_INOUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationElasticInOut : public TransformationBase
 {

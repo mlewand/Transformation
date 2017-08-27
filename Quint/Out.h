@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_QUINT_OUT_H
 #define TRANSFORMATION_QUINT_OUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationQuintOut : public TransformationBase
 {

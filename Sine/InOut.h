@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_SINE_INOUT_H
 #define TRANSFORMATION_SINE_INOUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationSineInOut : public TransformationBase
 {

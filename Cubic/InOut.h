@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_CUBIC_INOUT_H
 #define TRANSFORMATION_CUBIC_INOUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationCubicInOut : public TransformationBase
 {

@@ -1,5 +1,5 @@
-#ifndef TRANSFORMATION_BASE_H
-#define TRANSFORMATION_BASE_H
+#ifndef BASE_H
+#define BASE_H
 
 class TransformationBase {
 	public:

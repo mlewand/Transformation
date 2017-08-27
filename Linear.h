@@ -1,7 +1,7 @@
-#ifndef TRANSFORMATION_LINEAR_H
-#define TRANSFORMATION_LINEAR_H
+#ifndef LINEAR_H
+#define LINEAR_H
 
-#include "./TransformationBase.h"
+#include "./Base.h"
 
 class TransformationLinear : public TransformationBase
 {

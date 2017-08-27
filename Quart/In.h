@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_QUART_IN_H
 #define TRANSFORMATION_QUART_IN_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationQuartIn : public TransformationBase
 {

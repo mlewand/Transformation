@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_QUART_OUT_H
 #define TRANSFORMATION_QUART_OUT_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationQuartOut : public TransformationBase
 {

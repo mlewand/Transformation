@@ -2,7 +2,7 @@
 #ifndef TRANSFORMATION_EXPO_IN_H
 #define TRANSFORMATION_EXPO_IN_H
 
-#include "../TransformationBase.h"
+#include "../Base.h"
 
 class TransformationExpoIn : public TransformationBase
 {
