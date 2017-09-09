@@ -1,6 +1,6 @@
 
 #include "./In.h"
-#include <math.h>
+#include <cmath>
 
 float TransformationSineIn::ease(float t, float b, float c, float d)
 {

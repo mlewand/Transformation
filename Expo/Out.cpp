@@ -1,6 +1,6 @@
 
 #include "./Out.h"
-#include <math.h>
+#include <cmath>
 
 float TransformationExpoOut::ease(float t, float b, float c, float d)
 {

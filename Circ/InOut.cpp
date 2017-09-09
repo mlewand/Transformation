@@ -1,6 +1,6 @@
 
 #include "./InOut.h"
-#include <math.h>
+#include <cmath>
 
 float TransformationCircInOut::ease(float t, float b, float c, float d)
 {

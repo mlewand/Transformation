@@ -1,6 +1,6 @@
 
 #include "./InOut.h"
-#include <math.h>
+#include <cmath>
 
 float TransformationElasticInOut::ease(float t, float b, float c, float d)
 {
@@ -13,7 +13,7 @@ float TransformationElasticInOut::ease(float t, float b, float c, float d)
 		return b + c;
 	if (!p)
 		p = d * (.3 * 1.5);
-	if (a < abs(c))
+	if (a < std::abs(c))
 	{
 		a = c;
 		float s = p / 4;
