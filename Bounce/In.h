@@ -2,12 +2,14 @@
 #ifndef TRANSFORMATION_BOUNCE_IN_H
 #define TRANSFORMATION_BOUNCE_IN_H
 
-#include "./Out.h"
+#include "../Base.h"
 
-class TransformationBounceIn : public TransformationBounceOut
-{
-  public:
-	virtual float ease(float, float, float, float);
+template < typename NumericType >
+class TransformationBounceIn : public TransformationBase< NumericType > {
+public:
+	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
+		return ( t / d ) * ( b + c ) + b;
+	};
 };
 
 #endif
