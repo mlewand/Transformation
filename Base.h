@@ -1,9 +1,10 @@
 #ifndef BASE_H
 #define BASE_H
 
+template < typename T >
 class TransformationBase {
-	public:
-		virtual float ease(float, float, float, float) = 0;
+public:
+	virtual T ease( T, T, T, T ) = 0;
 };
 
 #endif

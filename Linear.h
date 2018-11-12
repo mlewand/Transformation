@@ -3,10 +3,12 @@
 
 #include "./Base.h"
 
-class TransformationLinear : public TransformationBase
-{
-  public:
-	virtual float ease(float, float, float, float);
+template < typename NumericType >
+class TransformationLinear : public TransformationBase< NumericType > {
+public:
+	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
+		return ( t / d ) * ( b + c ) + b;
+	};
 };
 
 #endif
