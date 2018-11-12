@@ -23,3 +23,7 @@ TransformationBounceOut transformation = new TransformationBounceOut();
 // Following call will return anything between 0 and 100 based on time and totalDuration.
 transformation.ease( time, 0.0, 100.0, totalDuration );
 ```
+
+## Preview
+
+You can preview different animation strategies here: https://easings.net/
