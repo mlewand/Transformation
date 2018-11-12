@@ -24,6 +24,6 @@ TransformationBounceOut transformation = new TransformationBounceOut();
 transformation.ease( time, 0.0, 100.0, totalDuration );
 ```
 
-## Preview
+## Easing Preview
 
-You can preview different animation strategies here: https://easings.net/
+You can compare different easing implementations here: https://easings.net/
