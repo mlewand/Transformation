@@ -8,7 +8,7 @@ template < typename NumericType >
 class TransformationSineIn : public TransformationBase< NumericType > {
 public:
 	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
-		return ( t / d ) * ( b + c ) + b;
+		return -c * cos(t / d * (M_PI / 2)) + c + b;
 	};
 };
 
