@@ -8,7 +8,7 @@ template < typename NumericType >
 class TransformationBounceIn : public TransformationBase< NumericType > {
 public:
 	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
-		return ( t / d ) * ( b + c ) + b;
+		return c - TransformationBounceOut::ease(d - t, 0, c, d) + b;
 	};
 };
 

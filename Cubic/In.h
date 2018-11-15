@@ -8,7 +8,7 @@ template < typename NumericType >
 class TransformationCubicIn : public TransformationBase< NumericType > {
 public:
 	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
-		return ( t / d ) * ( b + c ) + b;
+		return c * (t /= d) * t * t + b;
 	};
 };
 
