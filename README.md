@@ -17,9 +17,9 @@ Each class contains `ease` function, which takes following parameters:
 Sample code:
 
 ```cpp
-float curTime = 20;
-float totalDuration = 100;
-TransformationBounceOut transformation = new TransformationBounceOut();
+double curTime = 20;
+double totalDuration = 100;
+TransformationBounceOut<double> transformation = new TransformationBounceOut<double>();
 // Following call will return anything between 0 and 100 based on time and totalDuration.
 transformation.ease( time, 0.0, 100.0, totalDuration );
 ```
