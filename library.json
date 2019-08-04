@@ -1,0 +1,19 @@
+{
+	"name": "Transformation",
+	"keywords": "",
+	"description": "A small lib containing different fading implementations.",
+	"homepage": "https://github.com/mlewand/Transformation",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mlewand/Transformation.git"
+	},
+	"version": "0.1.0",
+	"authors": {
+		"name": "Marek Lewandowski",
+		"url": "http://blog.mlewandowski.com/"
+	},
+	"dependencies": {},
+	"exclude": [],
+	"frameworks": "arduino",
+	"platforms": "*"
+}
