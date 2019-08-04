@@ -4,13 +4,18 @@
 #include "./Base.h"
 
 // Constant type, meaning that it returns it's returnValue no matter of the base/change etc.
-class TransformationConstant : public TransformationBase
+template < typename T >
+class TransformationConstant : public TransformationBase< T >
 {
 	public:
-		TransformationConstant( float );
-		virtual float ease(float, float, float, float);
+		TransformationConstant( T retVal ) {
+			this->returnValue = retVal;
+		};
+		virtual T ease(T t, T b, T c, T d) {
+			return this->returnValue
+		}
 	private:
-		float returnValue;
+		T returnValue;
 };
 
 #endif
