@@ -8,7 +8,8 @@ template < typename NumericType >
 class TransformationQuintOut : public TransformationBase< NumericType > {
 public:
 	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
-		return c * ( ( t = t / d - 1 ) * t * t * t * t + 1 ) + b;
+		t = t / d - 1;
+		return c * ( t * t * t * t * t + 1 ) + b;
 	};
 };
 

@@ -8,7 +8,8 @@ template < typename NumericType >
 class TransformationQuartIn : public TransformationBase< NumericType > {
 public:
 	virtual NumericType ease( NumericType t, NumericType b, NumericType c, NumericType d ) {
-		return c * (t /= d) * t * t * t + b;
+		t = t / d;
+		return c * t * t * t * t + b;
 	};
 };
 

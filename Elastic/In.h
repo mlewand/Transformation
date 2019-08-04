@@ -20,10 +20,10 @@ public:
 		if (a < std::abs(c))
 		{
 			a = c;
-			NumericType s = p / 4;
+			s = p / 4;
 		}
 		else
-			NumericType s = p / (2 * M_PI) * asin(c / a);
+			s = p / (2 * M_PI) * asin(c / a);
 		return -(a * pow(2, 10 * (t -= 1)) * sin((t * d - s) * (2 * M_PI) / p)) + b;
 	};
 };
