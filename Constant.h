@@ -12,7 +12,7 @@ class TransformationConstant : public TransformationBase< T >
 			this->returnValue = retVal;
 		};
 		virtual T ease(T t, T b, T c, T d) {
-			return this->returnValue
+			return this->returnValue;
 		}
 	private:
 		T returnValue;
